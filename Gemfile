@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-ruby '2.1.3'
+# ruby '2.1.2'
+ruby '1.9.3'
 gem 'rails', '4.1.6'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
@@ -12,7 +13,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise'
 group :development do
-  gem 'better_errors'
+  # gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
   gem 'quiet_assets'
   gem 'rails_layout'
@@ -23,13 +24,13 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'sqlite3'
 end
-group :production do
-  gem 'pg'
-  gem 'rails_12factor'
-end
-group :test do
-  gem 'capybara'
-  gem 'database_cleaner'
-  gem 'launchy'
-  gem 'selenium-webdriver'
-end
+# group :production do
+#   gem 'pg'
+#   gem 'rails_12factor'
+# end
+# group :test do
+#   gem 'capybara'
+#   gem 'database_cleaner'
+#   gem 'launchy'
+#   gem 'selenium-webdriver'
+# end
